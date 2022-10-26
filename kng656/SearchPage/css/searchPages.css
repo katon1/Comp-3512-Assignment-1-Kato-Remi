@@ -1,0 +1,125 @@
+#title{
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    
+}
+
+#box{
+    display:flexbox;
+    font-family: 'Albert Sans';
+    float: none;
+    
+    width: 70vw;
+    height: auto;
+    
+    padding-top: 100px;
+    
+    background-color: #433753;
+    border-radius: 48px;
+    margin: 30px auto;
+    padding-bottom: 6vw;
+}
+
+#search{
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 700;
+    float: none;
+    margin: 0px auto;
+    padding-top: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 40vw;
+}
+
+.footerbar{
+   padding-top: 250px;
+}
+
+input[type=search]{
+    font-family: 'Albert Sans';
+    border-radius: 18px;
+    width: 95%;
+    height: 50%;
+    background-color: #433753;
+    color: white;
+    padding: 10px;
+
+}
+
+input[type=number]{
+    font-family: 'Albert Sans';
+    border-radius: 18px;
+    background-color: #433753;
+    color: white;
+    padding: 5px;
+    width:50%;
+}
+
+#one{
+    margin-left: -10px;
+}
+
+#Art{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+#Genres{
+    float: right;
+    width: 40%;
+    padding: 11px;
+}
+
+select[name=Artist]{
+    font-family: 'Albert Sans';
+    border-radius: 18px;
+    background-color: #433753;
+    color: white;
+    width: 90%;
+    height: 50%;
+    padding: 10px; 
+    
+    
+}
+
+select[name=Genre]{
+    font-family: 'Albert Sans';
+    border-radius: 18px;
+    background-color: #433753;
+    color: white;
+    width: 90%;
+    padding: 10px;
+    
+}
+
+#Years{
+    float: left;
+}
+
+#Popularity{
+    float: right;
+}
+
+input[type=submit]{
+    position:fixed;
+    margin-top: 15vw;
+    margin-left: 30vw;
+    background-color: #5422E1;
+    color: white;
+    border-radius: 24px;
+    width: 109px;
+    height: 48px;
+    
+}
+

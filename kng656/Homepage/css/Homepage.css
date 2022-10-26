@@ -1,0 +1,60 @@
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 24px;
+    row-gap: 24px;
+    padding-left: auto; 
+    padding-right: auto;  
+}
+
+.but{
+    position: relative;
+    border-radius: 48px;
+    
+    width: 100%;
+    height: 280px;
+    background:black; 
+    color: #FFFFFF;
+
+    font-family: 'Albert Sans';
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    font-size:28px;
+    position:relative;
+    float: none;
+    
+}
+
+td {
+    font-family: 'Albert Sans';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    float: none;
+    text-align: center;
+}
+
+#two{
+    font-family: 'Albert Sans';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    float: none;
+    
+}
+#results{
+    padding-bottom: 10px;
+}

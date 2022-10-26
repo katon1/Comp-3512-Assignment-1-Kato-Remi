@@ -1,0 +1,87 @@
+#line{
+    float: none;
+
+}
+
+h1{
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: -5px;
+}
+
+h2{
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 10px;
+}
+
+h3{
+    display:inline-block; 
+    text-transform: uppercase;
+    font-size:14px;
+    margin-top: -10px;
+}
+
+#box1{
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+#box2{
+    display:inline-block;
+   
+}
+
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 24px;
+    row-gap: 24px;
+    padding-left: auto; 
+    padding-right: auto;  
+}
+
+.categories{
+    position: relative;
+    border-radius: 48px;
+    
+    width: 100%;
+    height: 280px;
+    background:black; 
+    color: #FFFFFF;
+
+    font-family: 'Albert Sans';
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+
+    padding-top: 25%;
+}
+
+
+
+#nosel{
+    position: relative;
+    left: 5%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

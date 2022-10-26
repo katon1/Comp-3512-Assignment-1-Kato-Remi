@@ -1,0 +1,26 @@
+h1{
+    float: none;
+    font-family: 'Albert Sans';
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+tr{
+    float:none;
+    text-align: left;
+    height: 1vw;
+    
+}
+
+th{
+    float:none;
+    position: relative;
+    text-align: left;
+    padding-right: 12vw;
+    
+   
+}

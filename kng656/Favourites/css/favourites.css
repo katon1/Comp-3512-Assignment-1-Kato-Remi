@@ -1,0 +1,35 @@
+
+h1{
+    float: none;
+    font-family: 'Albert Sans';
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#clear{
+    float: right;
+}
+
+tr{
+    float:none;
+}
+
+/* th{
+    position: relative;
+    padding-right: 50vw;
+} */
+
+#remove{
+    width: 26px;
+    height: 26px;
+}
+
+a{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
